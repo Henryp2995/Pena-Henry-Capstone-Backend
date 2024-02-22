@@ -44,7 +44,7 @@ router.get('/', async (req, res) => {
     }
 })
 
-//Route to book by ID
+//Route to Gundam by ID
 router.get('/gundams/:id', async (req, res) => {
     try{
 

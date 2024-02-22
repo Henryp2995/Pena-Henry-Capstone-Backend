@@ -1,0 +1,35 @@
+# My App
+
+This is my capstone app, its made based on the anime Gundam and its hobby of model building. 
+
+## Link to frontend repo
+https://github.com/Henryp2995/Pena-Henry-Capstone-Frontend
+
+## Dependencies
+
+express: ^4.18.2
+nodemon: ^3.0.3
+mongoose: ^8.1.3
+
+## Configuration
+
+Ensure you have configured the following environment variables or values in a config.js file located in the root directory of the backend
+
+## Usage
+
+1. Clone this repository.
+2. Run nodemon
+
+## Endpoints
+
+GET /
+Description: Returns a welcome message.
+Body: "Welcome to my webstore"
+
+GET /gundams
+Description: Retrieves all Gundam data.
+
+POST /gundams
+Description: allows you add a new gundam item
+
+
